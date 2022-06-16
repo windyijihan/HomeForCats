@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/styles/stylesheet.css">
+    <link rel="stylesheet" href="./assets/styles/slideshow.css">
+  </head>
+ 
+  <body>
+
+    <header>
+      <div class="menu">
+        <div class="container-menu">
+          <div class="upperLogo">
+            <strong>HOME FOR CATS</strong>
+          </div>
+          <div class="listMenu">
+            <ul>
+              <li><a href="#">Program</a></li>
+              <li><a href="#latest-news">News</a></li>
+              <li><a href="#">Shelter</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+            <img src="./assets/Image/menu.png">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="slideshow">
+        <div class="slide fade">
+          <img src="./assets/Image/slide_1.jpg" class="image-slideshow">
+        </div>
+
+        <div class="slide fade">
+          <img src="./assets/Image/slide_2.jpg" class="image-slideshow">
+        </div>
+
+        <div class="slide fade">
+          <img src="./assets/Image/slide_3.jpg" class="image-slideshow">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+        
+        
+      </div>
+      <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      
+      <div class="main-button">
+        <div class="main-button-container">
+          <div class="main-button-item donate">
+            <div class="empty"></div>
+            <span>Donation</span>
+          </div>
+          <div class="main-button-item adopt">
+            <div class="empty"></div>  
+            <span>Adoption</span>
+          </div>
+          <div class="main-button-item education">
+            <div class="empty"></div>  
+            <span>Education</span>
+          </div>
+          <div class="main-button-item volunteer">
+            <div class="empty"></div>  
+            <span>Volunteer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="headline-2">
+        <div class="container">
+          <div class="headline-text">
+            <h1>Helping others won't make you poor</h1> 
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <article id="latest-news" class="card">
+          <div class="inner-container-content">
+            <h2>Latest News</h2>
+
+          <section class="news-card">
+            <div class="container">
+              <figure class="img-container-news">
+                <img src="./assets/Image/news_1.jpg">
+              </figure>
+              <div class="content-summary">
+                <h3 id="summary-title">Layanan Steril untuk Kucing Liar</h3>
+                <span id="summary-date">Minggu, 12 Juni 2022</span>
+                <p id="summary-text">
+                  Kucing domestik di Indonesia jumlahnya sangat banyak namun tidak berpemilik. Akibatnya, terjadi lonjakan pada populasi kucing domestik.
+                  Sehingga, untuk menekan lonjakan tersebut kami berinisiatif untuk mengadakan program sterilisasi bagi kucing domestik yang tidak berpemilik atau kucing liar.
+                </p>
+                <a>Read More</a>
+              </div>
+            </div>
+          </section>
+          
+          <section class="news-card">
+            <div class="container">
+              <figure class="img-container-news">
+                <img src="./assets/Image/news_2.jpg">
+              </figure>
+              <div class="content-summary">
+                <h3 id="summary-title">Vaksinasi Rabies Gratis</h3>
+                <span id="summary-date">Minggu, 12 Juni 2022</span>
+                <p id="summary-text">
+                  Tingginya kasus rabies di Jawa Barat, membuat kami tergerak untuk mengadakan program vaksinasi rabies gratis.
+                  Pasalnya, kasus rabies ini bukan hanya berdampak pada hewan saja, tapi juga manusia. 
+                  Penyakit ini dapat menyebabkan kematian jika tidak dilakukan pencegahan, seperti vaksinasi. Rabies sendiri dapat ditularkan 
+                  melalui gigitan hewan seperti, kucing, anjing, maupun kera. 
+                </p>
+                <a>Read More</a>
+              </div>
+            </div>
+          </section>
+          
+          <section class="news-card">
+            <div class="container">
+              <figure class="img-container-news">
+                <img src="./assets/Image/news_3.jpg">
+              </figure>
+              <div class="content-summary">
+                <h3 id="summary-title">Animal Rescue</h3>
+                <span id="summary-date">Minggu, 12 Juni 2022</span>
+                <p id="summary-text">
+                  Udon adalah seekor anjing liar yang berusia 1 tahun. Dia dibawa ke shelter kami pada bulan Mei lalu, 
+                  setelah dia dan ibunya ditemukan tertabrak mobil. Kini, Udon pun dapat hidup dengan baik dan memiliki keluarga baru. 
+                  Udon awalnya ditemukan sedang menangis disebelah tubuh induknya, dia menolak untuk meninggalkan induknya yang telah mati tertabrak.
+                </p>
+                <a>Read More</a>
+              </div>
+            </div>
+          </section>
+          <div class="btn-more-news">
+            <a>More News</a>
+          </div>
+          </div>
+          
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Author</h2>
+            <figure>
+              <img src="./assets/Image/windy.png">
+              <figcaption>Windy Israniati Jihan</figcaption>
+            </figure>
+          </header>
+        </article>
+      </aside>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+        <section class="footer-menu">
+          <p>
+            <a href="#">Kebijakan Privasi</a>
+            <a href="#">Syarat & Ketentuan</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+          </p>
+          <p>
+            &copy; 2022, Home For Cats
+          </p>
+        </section>
+      </div>
+    </footer>
+
+    <script src="./assets/js/slideshow.js"></script>
+    
+  </body>
+</html>
